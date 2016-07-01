@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1670223435/PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1670223435/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1670223435/PATH/value=C\:\\cygwin\\bin;C\:/Program Files/Java/jre1.8.0_91/bin/client;C\:/Program Files/Java/jre1.8.0_91/bin;C\:/Program Files/Java/jre1.8.0_91/lib/i386;C\:\\yotta\\python\\;C\:\\yotta\\python\\Scripts;C\:\\ProgramData\\Oracle\\Java\\javapath;C\:\\Windows\\system32;C\:\\Windows;C\:\\Windows\\System32\\Wbem;C\:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C\:\\Program Files\\Matrox Imaging\\Mil\\DLL;C\:\\Program Files\\Matrox Imaging\\Tools;C\:\\Users\\Public\\Documents\\Matrox Imaging\\CommonFiles;C\:\\Program Files\\JAI\\SDK\\bin;C\:\\Program Files\\JAI\\SDK\\GenICam\\bin\\Win32_i86;C\:\\cygwin\\armtoolchain\\bin;.;;C\:\\STM32Toolchain\\eclipse
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1670223435/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1670223435/appendContributed=true

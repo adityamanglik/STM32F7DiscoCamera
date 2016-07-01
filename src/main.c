@@ -107,11 +107,14 @@ int main(void)
     /* Select the LCD Foreground layer */
 	BSP_LCD_SelectLayer(1);
 
+	/* Text Introduction Display Begins*/
 	uint16_t display_duration=0;
 
-			BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
-			BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
 
+	BSP_LCD_SetTextColor(LCD_COLOR_WHITE);
+	BSP_LCD_SetBackColor(LCD_COLOR_BLACK);
+
+			display_duration=0;
 			while(display_duration<1000)
 			{
 				  BSP_LCD_DisplayStringAt(20, 130, (uint8_t*)"CSIR-CEERI", CENTER_MODE);
@@ -120,11 +123,14 @@ int main(void)
 
 			}
 
+	/* Text Introduction Display Ends*/
+
 	/* Set active window */
 	BSP_LCD_SetLayerWindow(1, xoffset, yoffset, xsize, ysize);
 
 
-	/*##-2- Camera Initialisation and start capture ############################*/
+	/*##-2- Camera Initialization and start capture ############################*/
+
 	/* Initialize the Camera */
 	BSP_CAMERA_Init(resolution);
 
